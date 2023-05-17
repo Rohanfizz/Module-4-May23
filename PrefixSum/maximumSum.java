@@ -5,6 +5,8 @@ import java.io.*;
 class Main {
     
     public static int maximumSum(int[] A, int[][] ops) {
+		//tc: O(nlogn)
+		//sc: O(2n)
 	    int[] step = new int[A.length];
 		int[] pref = new  int[A.length];
 		for(int[] op : ops){

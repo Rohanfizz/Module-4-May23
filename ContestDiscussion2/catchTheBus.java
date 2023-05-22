@@ -34,7 +34,6 @@ class Solution {
 		while(hs.contains(lastPassTime)) lastPassTime--;
 		return lastPassTime;
     }
-
 }
 
 public class Main {
